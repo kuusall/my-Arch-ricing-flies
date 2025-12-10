@@ -181,3 +181,6 @@ bindsym $mod+r mode "resize"
 bar {
         status_command i3status
 }
+#The line below need the feh package to be downloaded and forest.jpg file to be in the Downloads files.
+#The picture that I'm using is uploaded in the repo but you can use any picture you want just change the location in the line below.
+#exec_always feh --bg-fill $HOME/DOWNLOADS/forest.jpg
